@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import com.alpha.component.UI.UITest;
 import com.alpha.component.activitytest.ActivityTest;
 import com.alpha.component.notification.NotificationTest;
 import com.alpha.component.provider.ProviderActivity;
@@ -25,6 +26,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     private Button activityButton;
     private Button providerButton;
     private Button notificationButton;
+    private Button UIButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,12 +38,14 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         broadcastButton = (Button)findViewById(R.id.button_test_broadcast);
         providerButton = (Button)findViewById(R.id.button_test_provider);
         notificationButton = (Button)findViewById(R.id.button_test_notification);
+        UIButton = (Button)findViewById(R.id.button_test_ui);
 
         activityButton.setOnClickListener(this);
         serviceButton.setOnClickListener(this);
         broadcastButton.setOnClickListener(this);
         providerButton.setOnClickListener(this);
         notificationButton.setOnClickListener(this);
+        UIButton.setOnClickListener(this);
 
         Log.v(TAG,"isTaskRoot: "+ this.isTaskRoot());
 
@@ -71,6 +75,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             case R.id.button_test_notification:
                 Intent mIntentNotification = new Intent(this, NotificationTest.class);
                 startActivity(mIntentNotification);
+                break;
+            case R.id.button_test_ui:
+                Intent mIntentUI = new Intent(this, UITest.class);
+                startActivity(mIntentUI);
                 break;
             default:
                 Log.v(TAG,"No ID for onClick");

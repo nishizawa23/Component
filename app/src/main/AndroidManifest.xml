@@ -55,6 +55,18 @@
             android:name="com.alpha.component.notification.NotificationTest"
             android:label="@string/title_activity_notification_test" >
         </activity>
+        <activity
+            android:name="com.alpha.component.UI.UITest"
+            android:label="@string/title_activity_uitest" >
+        </activity>
+        <activity
+            android:name="com.alpha.component.UIEoe.UIEoe"
+            android:label="@string/title_activity_uieoe" >
+        </activity>
+        <activity
+            android:name="com.alpha.component.UIEoe.Example_one"
+            android:label="@string/title_activity_example_one" >
+        </activity>
     </application>
 
 </manifest>
