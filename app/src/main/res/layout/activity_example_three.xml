@@ -1,0 +1,62 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/com.alpha.component.app">
+
+    <com.alpha.component.UIEoe.LabelEditTextRecouse
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No 1"
+        app:iconSrc="@drawable/ic_launcher"
+        app:iconPosition="left"/>
+
+    <com.alpha.component.UIEoe.LabelEditTextRecouse
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No 2"
+        android:textSize="24sp"
+        app:iconSrc="@drawable/ic_launcher"
+        app:iconPosition="right"/>
+
+    <com.alpha.component.UIEoe.LabelEditTextRecouse
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No 3"
+        android:textSize="36sp"
+        app:iconSrc="@drawable/ic_launcher"
+        app:iconPosition="left"/>
+
+    <com.alpha.component.UIEoe.LabelEditTextRecouse
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No 4"
+        android:textSize="42sp"
+        app:iconSrc="@drawable/ic_launcher"
+        app:iconPosition="right"/>
+
+    <com.alpha.component.UIEoe.LabelEditTextRecouse
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No 5"
+        android:textSize="36sp"
+        app:iconSrc="@drawable/ic_launcher"
+        app:iconPosition="left"/>
+
+    <com.alpha.component.UIEoe.LabelEditTextRecouse
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No 6"
+        android:textSize="24sp"
+        app:iconSrc="@drawable/ic_launcher"
+        app:iconPosition="right"/>
+
+    <com.alpha.component.UIEoe.LabelEditTextRecouse
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No 7"
+        app:iconSrc="@drawable/ic_launcher"
+        app:iconPosition="left"/>
+
+    </LinearLayout>

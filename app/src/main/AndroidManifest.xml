@@ -71,6 +71,10 @@
             android:name="com.alpha.component.UIEoe.ExampleTwo"
             android:label="@string/title_activity_example_two" >
         </activity>
+        <activity
+            android:name="com.alpha.component.UIEoe.ExampleThree"
+            android:label="@string/title_activity_example_three" >
+        </activity>
     </application>
 
 </manifest>
