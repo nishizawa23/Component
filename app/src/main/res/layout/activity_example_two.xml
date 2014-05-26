@@ -1,0 +1,54 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:moblie="http://SomeStrings">
+
+    <com.alpha.component.UIEoe.LabelEditTextNamespase
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No 1"
+        moblie:iconSrc="@drawable/ic_launcher"/>
+
+    <com.alpha.component.UIEoe.LabelEditTextNamespase
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No 2"
+        android:textSize="24dp"
+        moblie:iconSrc="@drawable/ic_launcher"/>
+
+    <com.alpha.component.UIEoe.LabelEditTextNamespase
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No 3"
+        android:textSize="36dp"
+        moblie:iconSrc="@drawable/ic_launcher"/>
+
+    <com.alpha.component.UIEoe.LabelEditTextNamespase
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No 4"
+        android:textSize="48dp"
+        moblie:iconSrc="@drawable/ic_launcher"/>
+
+    <com.alpha.component.UIEoe.LabelEditTextNamespase
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No 5"
+        android:textSize="36dp"
+        moblie:iconSrc="@drawable/ic_launcher"/>
+
+    <com.alpha.component.UIEoe.LabelEditTextNamespase
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No 6"
+        android:textSize="24dp"
+        moblie:iconSrc="@drawable/ic_launcher"/>
+
+    <com.alpha.component.UIEoe.LabelEditTextNamespase
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No 7"
+        moblie:iconSrc="@drawable/ic_launcher"/>
+    </LinearLayout>
