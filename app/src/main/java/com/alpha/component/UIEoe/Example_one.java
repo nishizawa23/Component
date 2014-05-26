@@ -20,8 +20,6 @@ public class Example_one extends ActionBarActivity {
         setContentView(R.layout.activity_example_one);
 
 
-
-
     }
 
 
