@@ -20,6 +20,7 @@ public class LabelEditTextRecouse extends TextView {
     private int resourceId = 0;
     private int iconPosition = 0;
     private Bitmap bitmap;
+    final static String TAG = "LabelEditTextRecouse";
 
 
     public LabelEditTextRecouse(Context context, AttributeSet attrs) {

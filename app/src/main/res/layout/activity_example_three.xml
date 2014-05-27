@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/com.alpha.component.app">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <com.alpha.component.UIEoe.LabelEditTextRecouse
         android:layout_width="fill_parent"
