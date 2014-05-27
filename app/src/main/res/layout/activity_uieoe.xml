@@ -41,4 +41,15 @@
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/button_two"
         android:layout_alignEnd="@+id/button_two" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="example_four"
+        android:id="@+id/button_four"
+        android:layout_below="@+id/button_three"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button_three"
+        android:layout_alignEnd="@+id/button_three" />
 </RelativeLayout>

@@ -75,6 +75,10 @@
             android:name="com.alpha.component.UIEoe.ExampleThree"
             android:label="@string/title_activity_example_three" >
         </activity>
+        <activity
+            android:name="com.alpha.component.UIEoe.Lesson4Draw"
+            android:label="@string/title_activity_lesson4_draw" >
+        </activity>
     </application>
 
 </manifest>
