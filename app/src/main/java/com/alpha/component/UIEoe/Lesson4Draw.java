@@ -12,14 +12,18 @@ import android.graphics.RectF;
 import android.graphics.Shader;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
 
 import com.alpha.component.app.R;
 
 public class Lesson4Draw extends ActionBarActivity {
+
+    final static String TAG = "Lesson4Draw";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +49,25 @@ public class Lesson4Draw extends ActionBarActivity {
 
         public DrawView(Context context) {
             super(context);
+        }
+
+        public boolean onTouchEvent(android.view.MotionEvent event){
+
+            switch (event.getAction()){
+                case  MotionEvent.ACTION_DOWN:
+                    Log.i(TAG, "put down-----");
+                    break;
+                case MotionEvent.ACTION_MOVE:
+                    Log.i(TAG,"moving-----");
+                    break;
+                case MotionEvent.ACTION_UP:
+                    Log.i(TAG,"put up");
+                    break;
+                default:
+                    Log.i(TAG,"something else");
+            }
+            return true;
+
         }
 
         @Override
