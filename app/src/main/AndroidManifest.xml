@@ -83,6 +83,14 @@
             android:name="com.alpha.component.UIEoe.Lesson4Bitmap"
             android:label="@string/title_activity_lesson4_bitmap" >
         </activity>
+        <activity
+            android:name="com.alpha.component.UIEoe.Fragment.DetailActivity"
+            android:label="@string/title_activity_detail" >
+        </activity>
+        <activity
+            android:name="com.alpha.component.UIEoe.Fragment.FirstFragmentActivity"
+            android:label="@string/title_activity_first_fragment" >
+        </activity>
     </application>
 
 </manifest>

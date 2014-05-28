@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import com.alpha.component.UIEoe.Fragment.FirstFragmentActivity;
 import com.alpha.component.app.R;
 
 public class UIEoe extends ActionBarActivity implements View.OnClickListener{
@@ -20,6 +21,7 @@ public class UIEoe extends ActionBarActivity implements View.OnClickListener{
     Button mButtonThree;
     Button mButtonFour;
     Button mButtonFive;
+    Button mButtonSix;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,12 +33,14 @@ public class UIEoe extends ActionBarActivity implements View.OnClickListener{
         mButtonThree = (Button)findViewById(R.id.button_three);
         mButtonFour = (Button)findViewById(R.id.button_four);
         mButtonFive = (Button)findViewById(R.id.button_five);
+        mButtonSix = (Button)findViewById(R.id.button_six);
 
         mButtonOne.setOnClickListener(this);
         mButtonTwo.setOnClickListener(this);
         mButtonThree.setOnClickListener(this);
         mButtonFour.setOnClickListener(this);
         mButtonFive.setOnClickListener(this);
+        mButtonSix.setOnClickListener(this);
     }
 
 
@@ -82,6 +86,10 @@ public class UIEoe extends ActionBarActivity implements View.OnClickListener{
             case R.id.button_five:
                 Intent mIntentFive = new Intent(this,Lesson4Bitmap.class);
                 startActivity(mIntentFive);
+                break;
+            case R.id.button_six:
+                Intent mIntentSix = new Intent(this,FirstFragmentActivity.class);
+                startActivity(mIntentSix);
                 break;
             default:
                 Log.e(TAG, "no defined button");

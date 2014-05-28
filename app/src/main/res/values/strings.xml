@@ -15,5 +15,8 @@
     <string name="title_activity_example_three">ExampleThree</string>
     <string name="title_activity_lesson4_draw">Lesson4Draw</string>
     <string name="title_activity_lesson4_bitmap">Lesson4Bitmap</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_first_fragment">FirstFragmentActivity</string>
 
 </resources>

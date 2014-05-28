@@ -63,4 +63,15 @@
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/button_four"
         android:layout_alignEnd="@+id/button_four" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="example fragment"
+        android:id="@+id/button_six"
+        android:layout_below="@+id/button_five"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button_five"
+        android:layout_alignEnd="@+id/button_five" />
 </RelativeLayout>
