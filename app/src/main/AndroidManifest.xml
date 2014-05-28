@@ -79,6 +79,10 @@
             android:name="com.alpha.component.UIEoe.Lesson4Draw"
             android:label="@string/title_activity_lesson4_draw" >
         </activity>
+        <activity
+            android:name="com.alpha.component.UIEoe.Lesson4Bitmap"
+            android:label="@string/title_activity_lesson4_bitmap" >
+        </activity>
     </application>
 
 </manifest>

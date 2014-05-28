@@ -14,5 +14,6 @@
     <string name="title_activity_example_two">ExampleTwo</string>
     <string name="title_activity_example_three">ExampleThree</string>
     <string name="title_activity_lesson4_draw">Lesson4Draw</string>
+    <string name="title_activity_lesson4_bitmap">Lesson4Bitmap</string>
 
 </resources>

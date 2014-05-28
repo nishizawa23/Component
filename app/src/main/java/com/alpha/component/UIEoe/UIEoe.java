@@ -19,6 +19,7 @@ public class UIEoe extends ActionBarActivity implements View.OnClickListener{
     Button mButtonTwo;
     Button mButtonThree;
     Button mButtonFour;
+    Button mButtonFive;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,11 +30,13 @@ public class UIEoe extends ActionBarActivity implements View.OnClickListener{
         mButtonTwo = (Button)findViewById(R.id.button_two);
         mButtonThree = (Button)findViewById(R.id.button_three);
         mButtonFour = (Button)findViewById(R.id.button_four);
+        mButtonFive = (Button)findViewById(R.id.button_five);
 
         mButtonOne.setOnClickListener(this);
         mButtonTwo.setOnClickListener(this);
         mButtonThree.setOnClickListener(this);
         mButtonFour.setOnClickListener(this);
+        mButtonFive.setOnClickListener(this);
     }
 
 
@@ -75,6 +78,10 @@ public class UIEoe extends ActionBarActivity implements View.OnClickListener{
             case R.id.button_four:
                 Intent mIntentFour = new Intent(this,Lesson4Draw.class);
                 startActivity(mIntentFour);
+                break;
+            case R.id.button_five:
+                Intent mIntentFive = new Intent(this,Lesson4Bitmap.class);
+                startActivity(mIntentFive);
                 break;
             default:
                 Log.e(TAG, "no defined button");

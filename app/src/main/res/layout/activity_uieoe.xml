@@ -52,4 +52,15 @@
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/button_three"
         android:layout_alignEnd="@+id/button_three" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="example_bitmap"
+        android:id="@+id/button_five"
+        android:layout_below="@+id/button_four"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button_four"
+        android:layout_alignEnd="@+id/button_four" />
 </RelativeLayout>
